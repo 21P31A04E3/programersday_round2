@@ -1,0 +1,13 @@
+.board {
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            grid-gap: 5px;
+        }
+        .cell {
+            width: 100px;
+            height: 100px;background-color: grey;
+            text-align: center;
+            font-size: 24px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+        }
